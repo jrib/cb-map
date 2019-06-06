@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, #map {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+}
+
+#map img {
+  filter: hue-rotate(120deg) contrast(1.3) brightness(1.1) saturate(3);
+}
